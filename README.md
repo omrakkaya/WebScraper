@@ -47,19 +47,19 @@ Bu proje, bir web sitesinden belirli ürünleri çekip, bu ürünlerin bilgileri
 
 Bu projede, şu an için yalnızca bir web sitesi üzerinden veri çekimi yapılabiliyor. Ancak, projenin kapsamını genişletmek ve daha fazla işlevsellik eklemek için aşağıdaki geliştirme adımları değerlendirilebilir:
 
-**1. Birden Fazla Web Sitesinin Entegrasyonu**
+## **1. Birden Fazla Web Sitesinin Entegrasyonu**
 
 **Amaç:** Farklı web sitelerinden ürün verilerini çekmek ve bu verileri merkezi bir veritabanında toplamak.
 
 **Yöntem:** Mevcut sistemde, yalnızca bir web sitesinden veri çekimi yapılabiliyor. Bu nedenle, farklı web siteleri için ayrı modüller geliştirilebilir. Her bir web sitesi için ayrı sınıflar ve fonksiyonlar tanımlanarak, sistemin genişletilebilir olması sağlanabilir.
 
-**2. CronJob ile Zamanlayıcı Kurulumu**
+## **2. CronJob ile Zamanlayıcı Kurulumu**
 
 **Amaç:** Belirli aralıklarla otomatik olarak ürün fiyatlarını kontrol etmek ve kullanıcıları indirimler hakkında bilgilendirmek.
 
 **Yöntem:** Bir cron job kurulumu yapılarak, belirli aralıklarla ürün fiyatları güncellenebilir. Kullanıcıların belirlediği kriterlere (örneğin, %10 indirim) göre, fiyat düştüğünde kullanıcılara otomatik olarak bildirim gönderilebilir. Bu sayede, veritabanında kayıtlı ürünlerin daha uygun fiyatlarla satın alınması sağlanabilir.
 
-**3. İndirim Bildirim Sistemi**
+## **3. İndirim Bildirim Sistemi**
 
 **Amaç:** Kullanıcıların ilgilendiği ürünler indirimdeyken onları bilgilendirmek.
 
