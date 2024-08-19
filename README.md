@@ -11,7 +11,7 @@ Bu proje, bir web sitesinden belirli ürünleri çekip, bu ürünlerin bilgileri
 
 **Senaryo:** Hikayeden gittiğimizi varsayarsak, sitede arama kısmına "tshirt" yazdık ve sayfanın linkini kopyaladık.
 
-**İşlem: ** Arama sorgusunu API'ye gönderdiğimizde, belirlediğimiz sayfa sayısı kadar sonuç döner. Bu sonuçlar, tshirtlerin listesi ve linkleri şeklinde sıralanır.
+**İşlem:** Arama sorgusunu API'ye gönderdiğimizde, belirlediğimiz sayfa sayısı kadar sonuç döner. Bu sonuçlar, tshirtlerin listesi ve linkleri şeklinde sıralanır.
 ![Screenshot 2024-08-19 202417](https://github.com/user-attachments/assets/4d2b4a13-868f-42ea-a791-c574468666ab)
 ![Screenshot 2024-08-19 202452](https://github.com/user-attachments/assets/8c7b88f2-4b62-4747-b718-57e88063f191)
 
