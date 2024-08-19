@@ -1,0 +1,6 @@
+@ScrappyBot_HostAddress = http://localhost:5056
+
+GET {{ScrappyBot_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
