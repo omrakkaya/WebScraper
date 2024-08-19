@@ -49,10 +49,12 @@ Bu projede, şu an için yalnızca bir web sitesi üzerinden veri çekimi yapıl
 **Yöntem:** Mevcut sistemde, yalnızca bir web sitesinden veri çekimi yapılabiliyor. Bu nedenle, farklı web siteleri için ayrı modüller geliştirilebilir. Her bir web sitesi için ayrı sınıflar ve fonksiyonlar tanımlanarak, sistemin genişletilebilir olması sağlanabilir.
 
 **2. CronJob ile Zamanlayıcı Kurulumu**
+
 **Amaç:** Belirli aralıklarla otomatik olarak ürün fiyatlarını kontrol etmek ve kullanıcıları indirimler hakkında bilgilendirmek.
 **Yöntem:** Bir cron job kurulumu yapılarak, belirli aralıklarla ürün fiyatları güncellenebilir. Kullanıcıların belirlediği kriterlere (örneğin, %10 indirim) göre, fiyat düştüğünde kullanıcılara otomatik olarak bildirim gönderilebilir. Bu sayede, veritabanında kayıtlı ürünlerin daha uygun fiyatlarla satın alınması sağlanabilir.
 
 **3. İndirim Bildirim Sistemi**
+
 **Amaç:** Kullanıcıların ilgilendiği ürünler indirimdeyken onları bilgilendirmek.
 **Yöntem:** Kullanıcıların ilgilendiği ürünleri belirli bir yüzde indirim gördüğünde onlara e-posta veya SMS ile bildirim gönderecek bir sistem entegre edilebilir. Bu sistem, kullanıcıların ürünleri daha ucuza satın almalarını sağlar.
 
